@@ -272,7 +272,7 @@ const Index = () => {
             <Button
               size="lg"
               className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8 py-6 shadow-lg hover:shadow-xl"
-              onClick={setActiveCategory("todos")}
+              onClick={handleWhatsApp} 
             >
               <Zap className="w-5 h-5 mr-2" />
               Comprar Agora
