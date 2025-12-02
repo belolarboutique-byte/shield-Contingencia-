@@ -20,8 +20,6 @@ export const Navbar = () => {
     { to: "/faq", label: "Dúvidas" },
     { to: "/suporte", label: "Suporte" },
 
-    <Link to="/#produtos">Produtos</Link>
-
   ];
 
   return (
