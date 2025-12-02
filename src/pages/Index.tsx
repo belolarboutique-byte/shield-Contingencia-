@@ -366,6 +366,17 @@ const Index = () => {
             </div>
 
             <div id="produtos">
+useEffect(() => {
+  const hash = window.location.hash;
+  if (hash) {
+    const el = document.querySelector(hash);
+    if (el) {
+      setTimeout(() => {
+        el.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    }
+  }
+}, []);
 
             
             {(activeCategory === "todos" || activeCategory === "contas") && (
