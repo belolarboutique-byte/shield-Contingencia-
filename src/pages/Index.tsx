@@ -72,11 +72,6 @@ const Index = () => {
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };
 
-  <section id="produtos" className="scroll-mt-24 pt-20">
-  
-
-
- 
   const accountProducts = [
     {
       id: "pagina-antiga",
@@ -238,7 +233,7 @@ const Index = () => {
       icon: Cloud,
     },
   ];
- </section>
+
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
