@@ -19,12 +19,11 @@ export const Navbar = () => {
     { to: "/produtos", label: "Produtos" },
     { to: "/faq", label: "Dúvidas" },
     { to: "/suporte", label: "Suporte" },
-import Link from "next/link";
+
 
 <Link href="/produtos">
-  Produtos
 </Link>
-  ];
+ 
 
   return (
     <>
