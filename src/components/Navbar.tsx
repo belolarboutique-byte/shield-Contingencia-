@@ -16,7 +16,7 @@ export const Navbar = () => {
 
   const navLinks = [
     { to: "/", label: "Início" },
-    { to: "/#produtos", label: "Produtos" },
+    { to: "/#produtos", label: "pagina-antiga" },
     { to: "/faq", label: "Dúvidas" },
     { to: "/suporte", label: "Suporte" },
   ];
