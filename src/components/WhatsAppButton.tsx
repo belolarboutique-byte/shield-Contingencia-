@@ -6,7 +6,7 @@ export const WhatsAppButton = () => {
     // ⚠️ ATENÇÃO: CONFIGURE SEU NÚMERO AQUI!
     // Formato: código do país (55) + DDD + número (sem espaços, traços ou parênteses)
     // Exemplo: "5511987654321" para (11) 98765-4321
-    const phoneNumber = "+55 11 93347-1413"; // ⚠️ SUBSTITUA PELO SEU NÚMERO REAL!
+    const phoneNumber = "5511933471413"; // ⚠️ SUBSTITUA PELO SEU NÚMERO REAL!
     
     const message = encodeURIComponent("Olá! Vim do site Shield Contingência e gostaria de mais informações.");
     console.log("📱 Abrindo WhatsApp:", `https://wa.me/${phoneNumber}`);
