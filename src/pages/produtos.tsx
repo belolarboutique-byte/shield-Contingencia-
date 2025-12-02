@@ -74,7 +74,7 @@ const Index = () => {
 
   const accountProducts = [
     {
-      id: "pagina-antiga",
+      id: "pagina-antigaa",
       title: "Página Antiga",
       description: "Página do Facebook com histórico autêntico",
       price: "30,00",
