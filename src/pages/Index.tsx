@@ -364,20 +364,6 @@ const Index = () => {
                 Jogos
               </Button>
             </div>
-
-            <div id="produtos">
-useEffect(() => {
-  const hash = window.location.hash;
-  if (hash) {
-    const el = document.querySelector(hash);
-    if (el) {
-      setTimeout(() => {
-        el.scrollIntoView({ behavior: "smooth" });
-      }, 100);
-    }
-  }
-}, []);
-
             
             {(activeCategory === "todos" || activeCategory === "contas") && (
               <>
@@ -409,7 +395,7 @@ useEffect(() => {
                 </div>
               </>
             )}
-</div>
+
             {(activeCategory === "todos" || activeCategory === "bm") && (
               <>
                 <h3 className="text-3xl font-bold mb-8 text-center">
