@@ -28,10 +28,10 @@ export const CartDrawer = ({ open, onOpenChange }: CartDrawerProps) => {
     // ⚠️ ATENÇÃO: CONFIGURE SEU NÚMERO AQUI!
     // Formato: código do país (55) + DDD + número (sem espaços, traços ou parênteses)
     // Exemplo: "5511987654321" para (11) 98765-4321
-    const phoneNumber = "5511999999999"; // ⚠️ SUBSTITUA PELO SEU NÚMERO REAL!
+    const phoneNumber = "5511933471413"; // ⚠️ SUBSTITUA PELO SEU NÚMERO REAL!
     
     // Verifica se o número ainda é o placeholder
-    if (phoneNumber === "5511999999999") {
+    if (phoneNumber === "5511933471413") {
       toast.error("⚠️ Número do WhatsApp não configurado!", {
         description: "Configure seu número real no arquivo src/components/CartDrawer.tsx na linha 39",
         duration: 5000,
